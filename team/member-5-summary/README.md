@@ -1,5 +1,7 @@
 # Member 5 — Summary
 
+**Owner:** Kamesh
+
 **Branch:** `feature/agent-summary`
 
 **Main file:** `backend/app/agents/summary.py`

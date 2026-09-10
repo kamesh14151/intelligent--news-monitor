@@ -1,5 +1,7 @@
 # Member 3 — Story Clustering
 
+**Owner:** Ajay Krithick S V
+
 **Branch:** `feature/agent-clustering`
 
 **Main file:** `backend/app/agents/clustering.py`

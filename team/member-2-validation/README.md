@@ -1,5 +1,7 @@
 # Member 2 — Context Validation
 
+**Owner:** Kanish S
+
 **Branch:** `feature/agent-validation`
 
 **Main file:** `backend/app/agents/validation.py`

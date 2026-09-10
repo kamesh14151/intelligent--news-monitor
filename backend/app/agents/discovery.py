@@ -1,3 +1,4 @@
+# Agent: Semantic Discovery | Owner: Kamesh (Member 1)
 from app.graph.state import NewsState
 from app.services.embeddings import embed_texts
 

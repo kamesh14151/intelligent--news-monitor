@@ -8,19 +8,19 @@ Build and integrate five specialized AI agents into one LangGraph news-intellige
 `RSS/API articles → Discovery → Validation → Clustering → Importance → Summary → Rule Engine → DB/Alerts/Dashboard`
 
 ## Golden rule
-Each member owns **one agent** and works on their own Git branch. Do not rewrite another member's agent. Shared contracts in `backend/app/schemas/` and `backend/app/graph/state.py` are controlled by the integration owner (AJ / team lead).
+Each member owns **one agent** and works on their own Git branch. Do not rewrite another member's agent. Shared contracts in `backend/app/schemas/` and `backend/app/graph/state.py` are controlled by the integration owner (Kamesh / team lead).
 
 ## Branches
 
-| Member | Branch | Agent | File |
-|---|---|---|---|
-| 1 | `feature/agent-discovery` | Semantic Discovery | `backend/app/agents/discovery.py` |
-| 2 | `feature/agent-validation` | Context Validation | `backend/app/agents/validation.py` |
-| 3 | `feature/agent-clustering` | Story Clustering | `backend/app/agents/clustering.py` |
-| 4 | `feature/agent-importance` | Importance Analysis | `backend/app/agents/importance.py` |
-| 5 | `feature/agent-summary` | Summary | `backend/app/agents/summary.py` |
+| Member | Name | Branch | Agent | File |
+|---|---|---|---|---|
+| 1 | **Kamesh** | `feature/agent-discovery` | Semantic Discovery | `backend/app/agents/discovery.py` |
+| 2 | **Kanish S** | `feature/agent-validation` | Context Validation | `backend/app/agents/validation.py` |
+| 3 | **Ajay Krithick S V** | `feature/agent-clustering` | Story Clustering | `backend/app/agents/clustering.py` |
+| 4 | **Dev M K** | `feature/agent-importance` | Importance Analysis | `backend/app/agents/importance.py` |
+| 5 | **Kamesh** | `feature/agent-summary` | Summary | `backend/app/agents/summary.py` |
 
-## Member 1 — Semantic Discovery Agent
+## Member 1 — Semantic Discovery Agent *(Kamesh)*
 
 ### Objective
 Reduce a large incoming article set to articles that are semantically relevant to the user's monitored domain.
@@ -58,7 +58,7 @@ An embedding converts text into numbers representing meaning. Similar texts have
 
 ---
 
-## Member 2 — Context Validation Agent
+## Member 2 — Context Validation Agent *(Kanish S)*
 
 ### Objective
 Check whether each discovered article is genuinely relevant, not merely matching a keyword.
@@ -98,7 +98,7 @@ A keyword can be misleading. For example, an article may contain "AI" but actual
 
 ---
 
-## Member 3 — Story Clustering Agent
+## Member 3 — Story Clustering Agent *(Ajay Krithick S V)*
 
 ### Objective
 Group multiple articles reporting the same underlying event into one story.
@@ -133,7 +133,7 @@ If 10 websites report the same OpenAI launch, the dashboard should show one stor
 
 ---
 
-## Member 4 — Importance Analysis Agent
+## Member 4 — Importance Analysis Agent *(Dev M K)*
 
 ### Objective
 Estimate how important each story is. This agent provides signals; the central rule engine decides the final priority.
@@ -176,7 +176,7 @@ The model answers questions such as: "Could this affect businesses? Is it urgent
 
 ---
 
-## Member 5 — Summary Agent
+## Member 5 — Summary Agent *(Kamesh)*
 
 ### Objective
 Turn a clustered, scored story into a concise factual intelligence report.

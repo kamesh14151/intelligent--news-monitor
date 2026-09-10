@@ -1,5 +1,7 @@
 # Member 1 — Semantic Discovery
 
+**Owner:** Kamesh
+
 **Branch:** `feature/agent-discovery`
 
 **Main file:** `backend/app/agents/discovery.py`

@@ -1,3 +1,4 @@
+# Agent: Story Clustering | Owner: Ajay Krithick S V (Member 3)
 import re
 from app.graph.state import NewsState
 STOP = {"the","a","an","and","to","of","in","for","on","with","new","is","are","from","by","as","this","that"}
